@@ -5,3 +5,9 @@
       debug:
         msg: "Hello World!, bigg01"
 
+    - name: Package installation
+      dnf:
+        name:
+          - bash
+          - sshd
+        state: latest
